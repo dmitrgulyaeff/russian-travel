@@ -1,0 +1,28 @@
+.place__description {
+  grid-area: description;
+  display: flex;
+  flex-direction: column;
+  row-gap: 27px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__description {
+    row-gap: calc(27 * (100vw + 2432px) / (1024 + 2432));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__description {
+    row-gap: 25px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__description {
+    margin: 0 auto;
+    width: calc(288px + (720 - 288) * (100vw - 320px) / (768 - 320));
+  }
+}

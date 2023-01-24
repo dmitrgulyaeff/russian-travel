@@ -1,0 +1,41 @@
+.place__title {
+  font-weight: 900;
+  display: flex;
+  align-items: flex-end;
+  margin: 0;
+  grid-area: title;
+  font-size: 72px;
+  line-height: 76px;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__title {
+    font-size: 7.03125vw;
+    line-height: 100% + 4px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__title {
+    padding-right: 24%;
+    font-size: max(32px, 5.46875vw);
+    line-height: max(35px, 109.523809524%);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__title {
+    margin: 0 auto;
+    padding: 0;
+    font-size: max(32px, 5.46875vw);
+    line-height: max(35px, 109.523809524%);
+    width: calc(288px + (720 - 288) * (100vw - 320px) / (768 - 320));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+}

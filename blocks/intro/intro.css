@@ -1,0 +1,23 @@
+.intro {
+  margin: 0 auto;
+  max-width: 984px;
+  width: 76.875vw;
+  min-width: 928px;
+  margin-bottom: clamp(88px, 8.984375vw, 92px);
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    width: 90.625vw;
+    min-width: 720px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    width: calc(728 * (100vw - 40px) / (768 - 40));
+    min-width: 288px;
+    max-width: 720px;
+    margin-bottom: clamp(64px, 11.459vw, 88px);
+  }
+}

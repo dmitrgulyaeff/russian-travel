@@ -1,10 +1,7 @@
 .cover {
+  position: relative;
   margin: 0 auto 92px;
   max-width: 1184px;
-  max-height: 740px;
-  height: 62.5vw;
-  background-image: url("../../images/cover-trains.jpg");
-  background-size: cover;
 }
 
 @media screen and (max-width: 1024px) {

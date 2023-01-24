@@ -153,16 +153,13 @@
               alt="Куршская коса"
               class="place__image"
             />
-            <ul class="place__description">
-              <li>
+            <div class="place__description">
                 <p class="place__description-paragraph">
                   Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два
                   водных горизонта — спокойного Куршского залива с одной стороны
                   и подёрнутого рябью волн Балтийского моря с другой. Уникальная
                   природная зона на краю российского анклава.
                 </p>
-              </li>
-              <li>
                 <p class="place__description-paragraph">
                   На этом Калининградская область не заканчивается. Для
                   путешественника и исследователя там же по соседству — самая
@@ -171,8 +168,7 @@
                   исключает суету, окуная в спокойствие природы и запах
                   стального, прохладного моря.
                 </p>
-              </li>
-            </ul>
+            </div>
           </article>
           <article class="place">
             <h2 class="place__title">Кольский</h2>
@@ -189,15 +185,12 @@
               alt="Кольский"
               class="place__image"
             />
-            <ul class="place__description">
-              <li>
+            <div class="place__description">
                 <p class="place__description-paragraph">
                   Почти весь полуостров находится за Полярным кругом. Саамская
                   тундра, от которой на юг — тайга, а на север — Ледовитый
                   океан, прикидывающийся Баренцевым морем.
                 </p>
-              </li>
-              <li>
                 <p class="place__description-paragraph">
                   Возможно, вы смотрели Звягинцева и даже слышали историю
                   арктического фестиваля в Териберке. Возможно, слово «Хибины»
@@ -207,8 +200,7 @@
                   накрывает апатия. Но ваша мечта увидеть северное сияние
                   начинает сбываться с билетом в Мурманск.
                 </p>
-              </li>
-            </ul>
+            </div>
           </article>
           <article class="place">
             <h2 class="place__title">Алтай</h2>
@@ -225,8 +217,7 @@
               alt="Алтай"
               class="place__image"
             />
-            <ul class="place__description">
-              <li>
+            <div class="place__description">
                 <p class="place__description-paragraph">
                   Алтай — одно из красивейших мест в России. В первую очередь
                   из-за гор: если ехать вдоль хребта, вы увидите склоны,
@@ -234,8 +225,6 @@
                   автомобиле окна, сможете познакомиться с невидимым чудом
                   здешних мест — горным воздухом.
                 </p>
-              </li>
-              <li>
                 <p class="place__description-paragraph">
                   Климат на Алтае умеренный, поэтому ехать сюда лучше всего
                   летом. Так вы увидите всё разнообразие местной флоры и фауны.
@@ -243,8 +232,7 @@
                   равнинах пасутся косули. И знаменитые манулы — тоже обитатели
                   Алтайского края.
                 </p>
-              </li>
-            </ul>
+            </div>
           </article>
           <article class="place">
             <h2 class="place__title">Зимний Байкал</h2>
@@ -259,15 +247,12 @@
               alt="Зимний Байкал"
               class="place__image"
             />
-            <ul class="place__description">
-              <li>
+            <div class="place__description">
                 <p class="place__description-paragraph">
                   Всем известен Байкал как крупнейшее озеро в мире. Многие также
                   знают, что это самый большой источник пресной воды и одно из
                   красивейших мест в России.
                 </p>
-              </li>
-              <li>
                 <p class="place__description-paragraph">
                   Конечно, это всё так. Но Байкал ещё идеальное место для
                   соревнований по скийорингу. Это такой вид спорта, когда лыжник
@@ -276,8 +261,7 @@
                   «Байкальская миля» был поставлен мировой рекорд — 197.011
                   км/ч.
                 </p>
-              </li>
-            </ul>
+            </div>
           </article>
           <article class="place">
             <h2 class="place__title">Карелия</h2>
@@ -311,6 +295,7 @@
           </article>
         </section>
         <section class="cover">
+          <img class="cover__image" src="./images/cover-trains.jpg" alt="поезда">
           <a
             class="cover__link"
             href="https://stampsy.com/na-elektrichkakh-do-baikala"
@@ -323,29 +308,17 @@
           </a>
         </section>
         <footer class="footer">
-          <ul class="footer__links-list">
-            <li class="footer__list-item">
-              <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
-            </li>
-            <li class="footer__list-item">
-              <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
-            </li>
-            <li class="footer__list-item">
-              <a class="footer__link" href="https://rasp.yandex.ru"
-                >Расписание</a
-              >
-            </li>
-            <li class="footer__list-item">
-              <a class="footer__link" href="https://calendar.yandex.ru"
-                >Календарь</a
-              >
-            </li>
-            <li class="footer__list-item">
-              <a class="footer__link" href="https://travel.yandex.ru"
-                >Путешествия</a
-              >
-            </li>
-          </ul>
+          <nav class="footer__links-list">
+            <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
+            <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
+            <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
+            <a class="footer__link" href="https://calendar.yandex.ru"
+              >Календарь</a
+            >
+            <a class="footer__link" href="https://travel.yandex.ru"
+              >Путешествия</a
+            >
+          </nav>
           <p class="footer__copyright">© 2023. Гуляев Дмитрий</p>
         </footer>
       </main>

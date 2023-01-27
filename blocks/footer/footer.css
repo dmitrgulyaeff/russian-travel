@@ -17,8 +17,7 @@
   .footer {
     flex-direction: column;
     row-gap: 48px;
-    margin: 0 5vw 24px;
-    max-width: 720px;
-    width: calc(728 * (100vw - 40px) / (768 - 40));
+    margin: 0 auto 24px 5vw;
+    width: auto;
   }
 }
